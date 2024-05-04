@@ -1,11 +1,9 @@
-.head {
-    background-color: rgb(17, 180, 58);
-   
-}
+
 .menu {
    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+   flex-wrap: wrap;
     
     &__item {
     /*background-color: peru;*/
@@ -51,9 +49,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
  }
-.head{
-  width: 360px;
-  background-color: rgb(247, 122, 122);
-}
 }
