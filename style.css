@@ -6,6 +6,10 @@
   border: 1px solid red;
 }
 
+.footerend {
+  background-color: #222222;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -55,6 +59,9 @@
     justify-content: center;
     align-items: center;
   }
+  body {
+    width: 500px;
+  }
 }
 .head {
   display: flex;
@@ -62,6 +69,10 @@
   align-items: center;
   padding-left: 50px;
   height: 50px;
+}
+.head .fixed {
+  position: fixed;
+  top: 0;
 }
 .head__menu {
   /*background-color: crimson;*/
@@ -74,8 +85,13 @@
   font-weight: bold;
   text-decoration: none;
 }
+.head__link--active {
+  color: white;
+  border-bottom: 2px solid white;
+}
 .head__logo {
   /*background-color: aqua;*/
+  box-shadow: 2px;
 }
 
 @media screen and (max-width: 500px) {
@@ -90,8 +106,55 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 120px;
   }
 }
+.foot {
+  display: flex;
+  margin: 2px;
+  justify-content: space-around;
+}
+.foot__item {
+  /*background-color: crimson;*/
+  width: 200px;
+  min-height: 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.foot__link {
+  text-decoration: none;
+  color: white;
+}
+
+.contacto {
+  /*background-color: aqua;*/
+}
+
+.contact {
+  padding-left: 10px;
+}
+.contact__subtitle {
+  color: crimson;
+}
+.contact__link {
+  text-decoration: none;
+  color: green;
+}
+
+.linea {
+  height: 6px;
+  width: 50%;
+  border: none;
+  background-color: rgb(163, 12, 12);
+}
+
+hr {
+  border-color: red;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
