@@ -1,5 +1,5 @@
 .cont-header {
-  background-color: rgb(137, 189, 150);
+  /* background-color: rgb(137, 189, 150);*/
 }
 
 .cont-main {
@@ -63,7 +63,15 @@
     width: 500px;
   }
 }
+@media (min-width: 1300px) {
+  .cont {
+    width: 1280px;
+    margin: auto;
+  }
+}
 .head {
+  background-color: coral;
+  border-radius: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +102,7 @@
   box-shadow: 2px;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .head {
     height: 150px;
     display: flex;
@@ -110,13 +118,19 @@
     padding-left: 120px;
   }
 }
+@media (min-width: 1300px) {
+  .head {
+    width: 1280px;
+    margin: auto;
+  }
+}
 .foot {
   display: flex;
   margin: 2px;
   justify-content: space-around;
 }
 .foot__item {
-  /*background-color: crimson;*/
+  /* background-color: crimson;*/
   width: 200px;
   min-height: 200px;
   color: white;
@@ -128,7 +142,30 @@
   text-decoration: none;
   color: white;
 }
+.foot .menufoot {
+  display: flex;
+  flex-direction: column;
+}
+.foot .menufoot__titulo {
+  color: white;
+  padding-top: 10px;
+}
+.foot .menufoot__item {
+  color: white;
+  text-decoration: none;
+}
 
+@media (max-width: 500px) {
+  .foot__item {
+    display: none;
+  }
+}
+@media (min-width: 1300px) {
+  .footerend {
+    width: 1280px;
+    margin: auto;
+  }
+}
 .contacto {
   /*background-color: aqua;*/
 }
@@ -155,6 +192,13 @@ hr {
   border-color: red;
 }
 
+@media (min-width: 1300px) {
+  .contact {
+    width: 1280px;
+    margin: auto;
+    background-color: aliceblue;
+  }
+}
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -165,7 +209,7 @@ hr {
 }
 
 body {
-  max-width: 1300px;
+  /*max-width: 1300px;*/
   /* border: 1px solid green;*/
   min-height: 400px;
   margin: 0 auto;
