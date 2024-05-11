@@ -23,13 +23,8 @@ Un breakpoint, es el ancho de un dispositivo en el cual queremos que la forma en
 ```
 # CREAR UN MENU HORIZONTAL Y QUE A 767 PX SE UBIQUE DE MANERA VERTICAL
 
-![alt text](<Captura desde 2024-05-01 21-42-40.png>)
-
-
-![alt text](<Captura desde 2024-05-01 21-43-50.png>)
-
-![alt text](<Captura desde 2024-05-01 21-48-34.png>)
-
+![alt text](<Captura desde 2024-05-11 17-50-54.png>)
+![alt text](<Captura desde 2024-05-11 17-53-40.png>)
 
 ## Authors
 
