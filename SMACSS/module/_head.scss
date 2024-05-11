@@ -23,37 +23,47 @@
       border-bottom: 2px solid white;
      }
     }
+  }
     
-    &__logo{
-      /*background-color: aqua;*/
-      box-shadow: 2px ;
-    }
 
-
-    }
-
-    @media (max-width:500px){
+    @media (max-width:360px){
         .head{
-            height: 150px;
-         display: flex;
-         justify-content: center;
-         align-items: center;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
        &__menu{
         height: 100px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
-        padding-left: 120px;
        }
-      
        }
     }
 
-    @media (min-width:1300px){
+
+    @media (min-width:361px) and (max-width:768px){
+      .head{
+        height: 100px;
+       
+        &__menu{
+          height: 100px;
+         
+          display: flex;
+          flex-direction: column;
+          
+        }
+      }
+      
+      }
+
+
+
+
+
+    @media(min-width:1300px){
 .head{
   width: 1280px;
   margin: auto;
 }
-
     }
+    

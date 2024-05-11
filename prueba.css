@@ -1,0 +1,9 @@
+body{
+    background-color: red;
+}
+
+@media(min-width:300px) and (max-width:500px){
+body{
+    background-color: green;
+}
+}
